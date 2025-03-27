@@ -1,0 +1,5 @@
+dias = int (input ('\nQuantos dias alugados?: '))
+km = int (input ('\nQuantos km rodados?: '))
+valor = (60 * dias) + (0.15 * km)
+print ('===========')
+print (f'\nO total a pagar é {valor}')

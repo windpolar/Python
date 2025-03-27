@@ -1,0 +1,8 @@
+n = str(input('Digite seu nome completo: ')).strip()
+print ('Carregando o seu nome completo...')
+print (f'Seu nome em maiúsculas é: {(n.upper())}')
+print (f'Seu nome em minúsculas é: {(n.lower())}')
+ncarac = len(n.replace(" ",""))
+print (f'Seu nome ao todo tem {ncarac} letras')
+dividido = (n.split())
+print (f'Seu primeiro nome é {dividido[0]} e possui {len (dividido[0])} letras')
